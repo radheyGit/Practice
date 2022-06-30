@@ -7,6 +7,6 @@ public class Test {
 	 * methods here after performing addition in each method
 	 */
 	public static void main(String[] args) {
-		
+		MyAddition add = new MyAddition();
 	}
 }

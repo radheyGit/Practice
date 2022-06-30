@@ -5,19 +5,20 @@ public class MyAddition {
 	int num1,num2,sum;
 	
 	public MyAddition() {
-		super();
-		// TODO Auto-generated constructor stub
+		System.out.println("Default constructor called...");
 	}
 	
 	public MyAddition(int num1, int num2, int sum) {
 		super();
+		System.out.println("Parametarised constructor called...");
 		this.num1 = num1;
 		this.num2 = num2;
 		this.sum = sum;
 	}
 
 	public void addition1() {
-
+		sum  = num1 + num2;
+		System.out.println("Addition of two Number "+sum);
 	}
 	
 	public void addition2(int num1, int num2) {
